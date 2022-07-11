@@ -1,0 +1,67 @@
+
+/* My UX Skills section coded using CSS flex.Style as two columns. */
+
+h1.myskills{
+    border-style:solid;
+    border-width:2px;
+}
+.container-fluid{
+    float:center;
+    border-style:solid;
+    border-width:2px;
+    height: 500px;
+    width: 80%;
+    min-width: 80%;
+    display: flex;
+    position: relative
+}
+
+.left{
+    float:left;
+    background-color:lightgrey;
+    padding:10px;
+    margin:auto;
+
+}
+.right{
+    float:right;
+    background-color:lightgrey;
+    padding:10px;
+    margin:auto;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align: center;
+}
+.uidesignskills{
+    Padding-top:10px;
+}
+.communicationskills{
+    padding-top:40px;
+    
+}
+
+/*below this line starts the my work section. Note that the container fluid on top is the same class type and the my skills section*/
+
+h1.mywork{
+    border-style:solid;
+    border-width:2px;   
+}
+p{
+    text-align:center;
+}
+
+.project1{
+    margin:auto;
+}
+.project2{
+    margin:auto;
+}
+.project3{
+    margin:auto;
+}
+@media only screen and (max-width:600){
+   /*your CSS styles for your grid template area here*/ 
+}
